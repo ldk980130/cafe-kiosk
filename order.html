@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>문화상점 이문일공칠</title>
+        <link rel="stylesheet" type = "text/css" href="css/order.css"/>
+        <link rel="stylesheet" type = "text/css" href="css/navbar.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script src="./order.js"></script>
+    </head>
+    <body>
+        <div class ="navbar">
+            <div class = "logo-container">
+                <img src="./logo.png" class = "logo"/>
+            </div>
+        </div>
+        <div class = "main-container">
+            <div class="container">
+                <div class="content">
+                  <input type="radio" name="slider" checked id="coffee">
+                  <input type="radio" name="slider" id="tea">
+                  <input type="radio" name="slider" id="juice">
+                  <input type="radio" name="slider" id="bakery">
+                  <div class="list">
+                    <label for="coffee" class="coffee">
+                    <span class="icon"><img src="./coffee-beans-dark.png" class = "img-dark"/></span>
+                    <br/>
+                    <span class="title">COFFEE</span>
+                  </label>
+                  <label for="tea" class="tea">
+                    <span class="icon"><img src="./tea-dark.png" class = "img-dark"/></span>
+                    <br/>
+                    <span class="title">TEA</span>
+                  </label>
+                  <label for="juice" class="juice">
+                    <span class="icon"><img src="./juice-dark.png" class = "img-dark"/></span>
+                    <br/>
+                    <span class="title">JUICE</span>
+                  </label>
+                  <label for="bakery" class="bakery">
+                    <span class="icon"><img src="./bread-dark.png" class = "img-dark"/></span>
+                    <br/>
+                    <span class="title">BAKERY</span>
+                  </label>
+                  <div class="slider"></div>
+                </div>
+                  <div class="text-content">
+                    <div class="home text">
+                      <div class="title">COFFEE</div>
+                      <div class="menu">
+                          <div class = "box" id = 0>
+                            <div class = "menu-title">에스프레소</div>
+                            <div class = "menu-price">2500</div>
+                          </div>
+                          <div class = "box" id = 1 onClick="location.href='./detail.html'">
+                              <div class = "menu-title">아메리카노</div>
+                              <div class = "menu-price">3700</div>
+                          </div>
+                          <div class = "box" id = 2 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">카페라떼</div>
+                            <div class = "menu-price">4000</div>
+                          </div>
+                          <div class = "box" id = 3 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">카푸치노</div>
+                            <div class = "menu-price">4000</div>
+                          </div>
+                          <div class = "box" id = 4>
+                            <div class = "menu-title">카페모카</div>
+                            <div class = "menu-price">4300</div>
+                        </div>
+                          <div class = "box" id = 5 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">카라멜 마끼아또</div>
+                            <div class = "menu-price">4300</div>
+                          </div>
+                          <div class = "box" id = 6 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">바닐라 라떼</div>
+                            <div class = "menu-price">4300</div>
+                          </div>
+                          <div class = "box" id = 7 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">헤이즐넛 라떼</div>
+                            <div class = "menu-price">4300</div>
+                          </div>
+                          
+                      </div>
+                    </div>
+                    <div class="blog text">
+                      <div class="title">TEA</div>
+                      <div class="menu">
+                        <div class = "box" id = 8 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">유자차</div>
+                            <div class = "menu-price">4500</div>
+                        </div>
+                        <div class = "box" id = 9 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">허니 레몬티</div>
+                            <div class = "menu-price">4500</div>
+                        </div>
+                        <div class = "box" id = 10 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">허니 자몽티</div>
+                            <div class = "menu-price">4500</div>
+                        </div>
+                        <div class = "box" id = 11 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">캐모마일티</div>
+                            <div class = "menu-price">4000</div>
+                        </div>
+                        <div class = "box" id = 12 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">루이보스티</div>
+                            <div class = "menu-price">4000</div>
+                        </div>
+                        <div class = "box" id = 13 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">페퍼민트티</div>
+                            <div class = "menu-price">4000</div>
+                        </div>
+                        <div class = "box" id = 14 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">얼그레이티</div>
+                            <div class = "menu-price">4000</div>
+                        </div>
+                        <div class = "box" id = 15 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">녹차</div>
+                            <div class = "menu-price">4000</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="help text">
+                      <div class="title">JUICE / ADE</div>
+                      <div class="menu">
+                        <div class = "box" id = 16 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">바나나 주스</div>
+                            <div class = "menu-price">5500</div>
+                        </div>
+                        <div class = "box" id = 17 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">딸기 주스</div>
+                            <div class = "menu-price">6000</div>
+                        </div>
+                        <div class = "box" id = 18 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">망고 주스</div>
+                            <div class = "menu-price">6000</div>
+                        </div>
+                        <div class = "box" id = 19 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">토마토 주스</div>
+                            <div class = "menu-price">6000</div>
+                        </div>
+                        <div class = "box" id = 20 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">레몬 에이드</div>
+                            <div class = "menu-price">4500</div>
+                        </div>
+                        <div class = "box" id = 21 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">자몽 에이드</div>
+                            <div class = "menu-price">4500</div>
+                        </div>
+                        <div class = "box" id = 22 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">블루베리 에이드</div>
+                            <div class = "menu-price">4500</div>
+                        </div>
+                        <div class = "box" id = 23 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">망고 에이드</div>
+                            <div class = "menu-price">4500</div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="code text">
+                      <div class="title">BAKERY</div>
+                      <div class="menu">
+                        <div class = "box" id = 24 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">에그 치즈 토스트</div>
+                            <div class = "menu-price">3500</div>
+                        </div>
+                        <div class = "box" id = 25 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">클럽 샌드위치</div>
+                            <div class = "menu-price">5000</div>
+                        </div>
+                        <div class = "box" id = 26 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">로투스 찹쌀떡</div>
+                            <div class = "menu-price">4000</div>
+                        </div>
+                        <div class = "box" id = 27 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">공룡알고구마빵</div>
+                            <div class = "menu-price">2500</div>
+                        </div>
+                        <div class = "box" id = 28 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">말렌카 케이크</div>
+                            <div class = "menu-price">4800</div>
+                        </div>
+                        <div class = "box" id = 29 onClick="location.href='./detail.html'">
+                            <div class = "menu-title">감자빵</div>
+                            <div class = "menu-price">2500</div>
+                        </div>
+                        <div class = "box"></div>
+                        <div class = "box"></div>
+                    </div>
+                </div>
+            </div>
+            <div class = "order-container">
+                <div class = "order-info">
+                    <div class="title">ORDER</div>
+                    <table class="cartItem">
+                        <tbody id="listrow">
+                            <tr>
+                                <td id="name"></td>
+                                <td id="price"></td>
+                            </tr>
+                            <tr>
+                                <td id="option"></td>
+                                <td id="num"><img><img></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+</div>
+</body>
+</html>
